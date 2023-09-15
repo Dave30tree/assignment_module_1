@@ -203,7 +203,6 @@ footer {grid-area: footer}
     nav a { padding-bottom: px;}
     header {grid-area: header;}
     nav {margin-right: 30px;
-        margin-top: 80px;
         grid-area: nav}
     main {grid-area: main;}
     aside {grid-area: aside;
