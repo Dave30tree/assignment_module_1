@@ -154,7 +154,7 @@ header {grid-area: header;}
 nav {grid-area: nav;}
 main {grid-area: main;}
 aside {grid-area: aside;}
-footer {grid-area: footer}
+footer {grid-area: footer}157
 #wrapper {display: grid;
     width: 90%;
     margin: auto;
