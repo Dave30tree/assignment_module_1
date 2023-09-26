@@ -37,6 +37,10 @@ p {
    line-height: 1.3em;
 }
 
+aside img{
+    width: 80%;
+}
+
 nav{margin-top: 20px;
     margin-right: 0px;
     border-radius: 1em;
@@ -77,8 +81,8 @@ footer{
 footer a {text-decoration: none;
     color: black;
 }
-img {box-shadow: 1px 2px 5px #141414;
-    width: 100%;
+img {
+    box-shadow: 1px 2px 5px #141414;
 }
 
 nav a:visited {color: #8faeff;}
@@ -113,11 +117,6 @@ th {
 #fans_image {
     padding-top: 80px;
 }
-/* #container{
-    display: flex;
-    flex-flow: row-reverse;
-} */
-
 
 
             /* contact */
@@ -148,13 +147,45 @@ input[type="submit"] {
     padding-left: 30px;
 }
 
-            /* Grid */
+         /* Gallery */
 
+#flex_gallery_1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+iframe{
+    /* padding-top: 100px; */
+
+}
+
+
+#flex_gallery_2{
+    /* max-width: 200;
+    max-height: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+} 
+/* #flex_gallery_2 img{
+    align-self: center;
+} */
+
+
+            /* Grid */
+ 
 header {grid-area: header;}
 nav {grid-area: nav;}
 main {grid-area: main;}
 aside {grid-area: aside;}
-footer {grid-area: footer}157
+footer {grid-area: footer}
 #wrapper {display: grid;
     width: 90%;
     margin: auto;
@@ -198,8 +229,6 @@ footer {grid-area: footer}157
     nav ul { display: flex;
 			flex-direction: column;
 			flex-wrap: nowrap;}
-    /* nav li {border-bottom: .5px solid #8faeee;
-            padding-bottom: 10px;} */
     nav a { padding-bottom: px;}
     header {grid-area: header;}
     nav {margin-right: 30px;
@@ -219,7 +248,5 @@ footer {grid-area: footer}157
         "nav main aside"
         "footer footer footer"}
 }  
-
-
 
 
