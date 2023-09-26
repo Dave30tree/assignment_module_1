@@ -38,7 +38,7 @@ p {
 }
 
 aside img{
-    width: 80%;
+    width: 100%;
 }
 
 nav{margin-top: 20px;
@@ -85,7 +85,7 @@ img {
     box-shadow: 1px 2px 5px #141414;
 }
 
-nav a:visited {color: #8faeff;}
+nav a:visited {color: #010718;}
 nav a:link {color: #8faeee;}
 nav a:hover {color: #c9af67;
     border-bottom: .5px solid #c9af67;}
@@ -158,12 +158,6 @@ input[type="submit"] {
     padding-top: 100px;
 }
 
-iframe{
-    /* padding-top: 100px; */
-
-}
-
-
 #flex_gallery_2{
     /* max-width: 200;
     max-height: 100px; */
@@ -174,9 +168,6 @@ iframe{
     align-items: center;
     padding-top: 8px;
 } 
-/* #flex_gallery_2 img{
-    align-self: center;
-} */
 
 
             /* Grid */
