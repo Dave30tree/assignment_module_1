@@ -85,7 +85,7 @@ img {
     box-shadow: 1px 2px 5px #141414;
 }
 
-nav a:visited {color: #010718;}
+nav a:visited {color: #8faeee;}
 nav a:link {color: #8faeee;}
 nav a:hover {color: #c9af67;
     border-bottom: .5px solid #c9af67;}
@@ -159,8 +159,7 @@ input[type="submit"] {
 }
 
 #flex_gallery_2{
-    /* max-width: 200;
-    max-height: 100px; */
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
