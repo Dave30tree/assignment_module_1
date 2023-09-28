@@ -159,7 +159,6 @@ input[type="submit"] {
 }
 
 #flex_gallery_2{
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
