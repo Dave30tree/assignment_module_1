@@ -89,6 +89,9 @@ footer a {text-decoration: none;
     text-align: center;
     padding-top: 20px;
 }
+p2 a:hover {
+    border-bottom: .5px solid #141414;}
+
 p2 a {
     text-decoration: none;
     color: #141414;
