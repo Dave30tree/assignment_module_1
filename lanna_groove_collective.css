@@ -57,6 +57,7 @@ nav a {
     text-decoration: none;
     padding-bottom: 5px;
 }
+
 nav li{
     padding-top: 5px;
     padding-bottom: 10px;
@@ -81,6 +82,17 @@ footer{
 footer a {text-decoration: none;
     color: black;
 }
+#tickets{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: center;
+    padding-top: 20px;
+}
+p2 a {
+    text-decoration: none;
+    color: #141414;
+}
 img {
     box-shadow: 1px 2px 5px #141414;
 }
@@ -88,7 +100,7 @@ img {
 nav a:visited {color: #8faeee;}
 nav a:link {color: #8faeee;}
 nav a:hover {color: #c9af67;
-    border-bottom: .5px solid #c9af67;}
+         border-bottom: .5px solid #c9af67;}
 
 
             /* Tours */
@@ -129,7 +141,6 @@ th {
     padding-right: 10px;
     padding-top: 5px;
     margin-top: 0px; 
-    /* margin-right: 100px; */
 }
 #contact_header{
         margin-top: 40px;
@@ -146,8 +157,24 @@ input[type="submit"] {
     padding-top: 50px;
     padding-left: 30px;
 }
+button, input, select, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+   line-height: 1.3em;
+}
+
 
          /* Gallery */
+
+h2{
+    font-family:  Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+}
+
+iframe{
+    padding-top: 20px;
+}
 
 #flex_gallery_1{
     display: flex;
@@ -155,7 +182,7 @@ input[type="submit"] {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 #flex_gallery_2{
